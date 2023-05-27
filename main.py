@@ -8,7 +8,7 @@ import datetime
 
 intents = nextcord.Intents.all()
 bot = commands.Bot(command_prefix=".", intents=intents)
-token = "ODMyNjE0NzMxMjcyNDIxNDA4.YHmW5Q.67dLdqQ6qUrpXCGjTDM-EmHUCz8"
+token = "ODMyNjE0NzMxMjcyNDIxNDA4.Gas8Tz.AjZ9BhoNVEtDYf3L3ODWXoKlmIv_PJSr6ROiuU"
 conn = sqlite3.connect('base.db')
 cursor = conn.cursor()
 utctime = datetime.datetime.strftime(datetime.datetime.now(datetime.timezone.utc),'%c')
